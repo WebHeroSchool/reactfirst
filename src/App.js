@@ -33,7 +33,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {desireToLearn ? 'Learn React' : "Don't use the link"}
         </a>
         <p>
           undefined: {undefined},
