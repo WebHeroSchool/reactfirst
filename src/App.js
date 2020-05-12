@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import * as nums from './numbers'
 
 const isLogo = true;
 const numberOfProject = 1;
@@ -36,11 +37,8 @@ function App() {
           {desireToLearn ? 'Learn React' : "Don't use the link"}
         </a>
         <p>
-          undefined: {undefined},
-          null: {null},
-          false: {false},
-          true: {true}
-        </p>
+         count * length = {nums.count*nums.length}
+       </p>
       </header>
     </div>
   );
